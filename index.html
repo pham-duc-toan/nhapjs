@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="scss/style.scss">
+</head>
+<body>
+
+  <style>
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product-item {
+      width: 40%;
+      margin-left: 5%;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+    }
+
+    .product-item img {
+      width: 100%;
+      aspect-ratio: 17/9;
+      object-fit: cover;
+    }
+
+    /* .product-item .inner-price {
+      color: green;
+      font-weight: 600;
+      font-size: 24px;
+    } */
+  </style>
+
+  <div id="products" class="product-list"></div>
+  <div id="users" class="user-list"></div>
+    
+  <script src="nhap.js"></script>
+</body>
+</html>
